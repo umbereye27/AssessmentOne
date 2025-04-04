@@ -12,34 +12,33 @@
 </head>
 
 <body>
-    <header class="flex bg-white  justify-between py-3 px-15">
-
-        <div class="logo">CINNAMON</div>
-        <div class="navigations">
-            <nav>
-                <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
+    <header class="flex flex-row h-18 items-center justify-between px-20 bg-white fixed top-0 left-0 w-full z-[1]">
+        <div class="text-2xl font-extrabold  font-[Mont] sm:text-3xl md:text-3xl">CINNAMON</div>
+        <div class="lg:flex flex-row gap-20 hidden ">
+            <nav class="font-semibold flex justify-between">
+                <ul class="list-none flex pt-[15px] gap-[25px] text-[17px] font-medium">
+                    <li><a href="#" class="no-underline text-black hover:text-[#5135ff]">Projects</a></li>
+                    <li><a href="#" class="no-underline text-black hover:text-[#5135ff]">Services</a></li>
+                    <li><a href="#" class="no-underline text-black hover:text-[#5135ff]">About Us</a></li>
+                    <li><a href="#" class="no-underline text-black hover:text-[#5135ff]">Careers</a></li>
+                    <li><a href="#" class="no-underline text-black hover:text-[#5135ff]">Blog</a></li>
                 </ul>
             </nav>
-            <div class="buttons">
-                <button id="videoBtn"><i class='bx bxs-right-arrow' style='color:#3a13eb;'></i></button>
+            <div class="buttons flex items-center">
+                <button id="videoBtn" class="text-[#3a13eb]"><i class='bx bxs-right-arrow' style='color:#3a13eb;'></i></button>
                 <button class="collaborate">Let's collaborate</button>
             </div>
         </div>
-        <!-- <button class="menu-toggle" onclick="toggleMenu()">☰</button> -->
+        <button class="lg:hidden" onclick="toggleMenu()"><i class='bx bx-menu-alt-left h-10 w-10'></i></button>
     </header>
-    <main class="px-10">
-        <section class="my-30 px-10">
-            <h1 class="text-7xl font-extrabold ">Human & The Machine</h1>
-            <h4 class="text-gray-600 text-2xl font-light py-8 ">
+    <main class="lg:px-10 max-w-7xl mx-auto md:px-10 px-10">
+        <section class=" my-30 lg:px-10 px-10">
+            <h1 class="lg:text-7xl font-extrabold md:text-5xl text-3xl">Human & The Machine</h1>
+            <h4 class="text-gray-600 lg:text-2xl font-light py-8 ">
                 Our seasoned engineering and design teams leverage proven AI tools <br>
                 to deliver high-quality results, faster. We use machines; machines don’t use us.
             </h4>
-            <div class="grid grid-cols-3 gap-4 py-8">
+            <div class="grid md:grid-cols-3 gap-4 py-8 block">
                 <div class="">
                     <img src="/images/deloitte-Logo.5306e5df.svg" class="h-10 w-40" alt="photo">
                     <p class="py-2">TOP FAST 50 Central Europe <br> 2023</p>
@@ -52,21 +51,21 @@
         </section>
 
         <section
-            class="my-30 mx-10 px-10 bg-purple-900 text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl ">
-            <div class="md:w-1/2 space-y-4">
+            class="my-30 lg:mx-10 lg:py-16 px-10 bg-purple-900 text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl ">
+            <div class="md:w-full space-y-4">
 
-                <a href="#" class="font-bold uppercase text-sm tracking-widest curser-pontier">Product Design &nbsp; Web
+                <a href="#" class="font-bold uppercase text-sm tracking-widest curser-pontier ">Product Design &nbsp; Web
                     Development</a>
-                <h1 class="text-5xl font-extrabold">Engage & Decide</h1>
-                <p class="text-lg text-gray-300">
+                <h1 class="lg:text-5xl font-extrabold text-3xl">Engage & Decide</h1>
+                <p class="text-gray-300 md:text-md">
                     Fiona is a fintech consumer-facing website that enables users to search for financial products,
                     discover them, and receive personalized recommendations.
                 </p>
 
-                <div class="flex items-center gap-4 p-4 rounded-lg">
+                <div class="lg:flex items-center gap-4 p-4 rounded-lg">
                     <img src="/images/Ellipse_126__1_.webp" alt="User Image" class="rounded-full w-12 h-12">
                     <div>
-                        <p class="font-semibold text-lg">Great collaboration through the whole process.</p>
+                        <p class="font-semibold lg:text-lg my-4">Great collaboration through the whole process.</p>
                         <p class="text-sm">Alex Whiteside</p>
                     </div>
                 </div>
@@ -79,13 +78,13 @@
         </section>
 
         <section
-            class="my-30 mx-10 px-10 bg-[rgb(23,70,79)]  text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl ">
-            <div class="md:w-1/2 space-y-4">
+            class="my-30 lg:mx-10 px-10 bg-[rgb(23,70,79)]  text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl ">
+            <div class="md:w-full space-y-4">
 
                 <a href="#" class="font-bold uppercase text-sm tracking-widest curser-pontier">Product Design &nbsp; Web
                     Development</a>
-                <h1 class="text-5xl font-extrabold">Engage & Decide</h1>
-                <p class="text-lg text-gray-300">
+                <h1 class="lg:text-5xl font-extrabold text-3xl">Engage & Decide</h1>
+                <p class="text-lg text-gray-300 md:text-md">
                     Fiona is a fintech consumer-facing website that enables users to search for financial products,
                     discover them, and receive personalized recommendations.
                 </p>
@@ -106,13 +105,13 @@
         </section>
 
         <section
-            class="my-30 mx-10 px-10 bg-[#0e4b92]  text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl">
-            <div class="md:w-1/2 space-y-4">
+            class="my-30 lg:mx-10 px-10 bg-[#0e4b92]  text-white flex flex-col md:flex-row items-center gap-8  hover:shadow-2xl">
+            <div class="md:w-full space-y-4">
 
                 <a href="#" class="font-bold uppercase text-sm tracking-widest curser-pontier">Product Design &nbsp; Web
                     Development</a>
-                <h1 class="text-5xl font-extrabold">Engage & Decide</h1>
-                <p class="text-lg text-gray-300">
+                <h1 class="lg:text-5xl font-extrabold text-3xl">Engage & Decide</h1>
+                <p class="text-lg text-gray-300 md:text-md">
                     Fiona is a fintech consumer-facing website that enables users to search for financial products,
                     discover them, and receive personalized recommendations.
                 </p>
@@ -133,9 +132,9 @@
         </section>
 
         <section class="my-30 mx-10 p-10  ">
-            <h2 class="text-5xl font-bold text-black ">Our services</h2>
+            <h2 class="lg:text-5xl font-bold text-black text-4xl ">Our services</h2>
 
-            <div class="grid grid-rows-2 grid-flow-col gap-20">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-20">
 
                 <div class="flex flex-col space-y-4">
                     <img src="/images/strategy.6603cde7.png" alt="Strategy Icon" class="w-15 h-15 mt-20">
@@ -192,10 +191,10 @@
     <section class=" bg-black text-white flex flex-col gap-20 md:flex-row items-center p-8 md:p-16">
 
         <div class="md:w-1/2 space-y-6">
-            <h1 class="text-10xl font-extrabold leading-relaxed md:text-5xl">
+            <h1 class="lg:text-10xl font-extrabold leading-relaxed md:text-5xl">
                 Discovery <br> Workshops: From Idea to Roadmap
             </h1>
-            <p class="text-gray-100">
+            <p class="text-gray-100 md:text-sm">
                 Ever been on the edge of launching a project with a standout agency, but caught
                 between excitement and a tight budget? We’ve all been there. Join us as we decode
                 the steps from project requirements to realization. Discover the backstage magic of
@@ -221,17 +220,17 @@
 
         <div>
             <div class="space-y-4">
-                <h2 class="text-5xl font-bold leading-15 ">
+                <h2 class="lg:text-5xl font-bold lg:leading-15 text-3xl ">
                     Their team’s design skills definitely set them apart.
                 </h2>
                 <p class="text-gray-500 leading-relaxed  text-lg">
                     They do excellent work in all areas of the project, but it is specifically their design work that
                     puts them head and shoulders above the rest.
                 </p>
-                <div class="flex items-center space-x-4 p-2 my-4">
+                <div class="lg:flex lg:items-center space-x-4 p-2 my-4">
                     <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User" class="w-15 h-15 rounded-full">
                     <div>
-                        <p class="font-bold text-2xl">Alain Puysteins</p>
+                        <p class="font-bold text-2xl py-2">Alain Puysteins</p>
                         <p class="text-gray-400 ">CEO, Play&Go</p>
                     </div>
                 </div>
@@ -239,14 +238,14 @@
 
             <div class="space-y-4 my-24">
 
-                <h2 class="text-5xl font-bold leading-14 ">
+                <h2 class="lg:text-5xl font-bold lg:leading-14 text-3xl">
                     The workflow was fantastic.Good, timely communication.
                 </h2>
                 <p class="text-gray-500 leading-relaxed  text-lg">
                     They are a very professional company that provides good communication. The process was quite
                     stress-free, even though the App itself is somewhat complicated.
                 </p>
-                <div class="flex items-center space-x-4 p-2 my-4">
+                <div class="lg:flex lg:items-center space-x-4 py-2 my-4">
                     <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="User" class="w-12 h-12 rounded-full">
                     <div>
                         <p class="font-bold text-2xl">Toni Paju</p>
@@ -258,7 +257,7 @@
 
         <div class="py-20">
             <div class="space-y-4">
-                <h2 class="text-5xl font-bold leading-15 ">
+                <h2 class="lg:text-5xl font-bold lg:leading-15 text-3xl ">
                     We hire experts for a reason. Quality that’s worth the wait.
                 </h2>
                 <p class="text-gray-500 leading-relaxed  text-lg">
@@ -277,14 +276,14 @@
 
             <div class="space-y-4 my-20">
 
-                <h2 class="text-5xl font-bold leading-15">
+                <h2 class="lg:text-5xl font-bold lg:leading-15 text-3xl">
                     We hire experts for a reason. Quality that’s worth the wait.
                 </h2>
                 <p class="text-gray-500 text-lg">
                     The results were amazing, and we couldn’t have asked for a better partner in bringing our vision to
                     life.
                 </p>
-                <div class="flex items-center space-x-4 p-2 my-4">
+                <div class="lg:flex lg:items-center space-x-4 p-2 my-4">
                     <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="User"
                         class="w-15 h-15 rounded-full">
                     <div>
@@ -327,32 +326,42 @@
     </section>
 
 
-    <section class=" my-30 mx-10 px-10 ">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            
-            <div class="">
-                <h1 class="text-9xl font-extrabold leading-relaxed md:text-5xl">Agile team on demand</h1>
-                <p class="text-gray-700 mb-6 leading-relaxed">
-                    By hiring and managing talented people with skills specific to your project, we build you a team that's accomplished, agile, and scalable in both directions.
-                </p>
-                <button class="collaborate">
-                    See how it works
-                </button>
-            </div>
-            
-            <div class="parent ">
-                <div class="div1 mx-2 "><img src="/images/agileTeam1.webp" class="w-full h-full object-cover"></div>
-                <div class="div2 mx-2"> <img src="/images/agileTeam2.webp" class="w-full h-full object-cover"></div>
-                <div class="div3 mx-2"> <img src="/images/agileTeam3.webp" class=" w-full h-full object-cover"></div>
-                <div class="div4 mx-2"> <img src="/images/agileTeam4.webp" class=" w-full h-full object-cover"></div>
-                <div class="div5 mx-2"> <img src="/images/agileTeam5.webp" class="w-full h-full object-cover"></div>
-                <div class="div6 mx-2"> <img src="/images/agileTeam6.webp" class="w-full h-full object-cover"></div>
-                <div class="div7 mx-2">   <img src="/images/agileTeam7.webp" class="w-full h-full object-cover"></div>
-                <div class="div8 mx-2"> <img src="/images/agileTeam9.webp" class=" w-full h-full object-cover"></div>
-                <div class="div9 mx-2"><img src="/images/agileTeam2.webp" class=" w-full h-full object-cover"> </div>
-                </div>
-        </div>
+    <section class="sm:min-h-[1500px] lg:relative max-w-7xl mx-auto">
+        <div class="w-[450px] flex flex-col gap-10 absolute top-20 left-20">
+            <h1 class="text-6xl font-bold leading-20">Agile team on<br /> demand</h1>
+            <p class="text-lg">By hiring and managing talented people with skills specific to your project, we build you
+                a team that’s
+                accomplished, agile and scalable in both directions.</p>
+            <button class="w-60 py-3 text-white font-semibold bg-[#5135ff] 
+                hover:bg-white hover:text-gray-800 hover:border-[#5135ff] 
+                border border-transparent cursor-pointer 
+                transition-colors duration-300 ease-in-out  z-10"
+                >
+                See how it works
+            </button>
 
+        </div>
+        <div class="absolute top-0 w-full h-full">
+            <div class="lg:relative ">
+                <div class="absolute right-20 top-20 flex flex-col gap-5">
+                    <img src="/images/agileTeam1.webp" class="w-[256px] h-[250px]">
+                    <img src="/images/agileTeam2.webp" class="w-[256px] h-[250px]">
+                    <img src="/images/agileTeam3.webp" class="w-[256px] h-[250px]">
+                </div>
+                <div class="absolute right-93 top-100 flex flex-col gap-5">
+                    <img src="/images/agileTeam1.webp" class="w-[256px] h-[250px]">
+                    <img src="/images/agileTeam2.webp" class="w-[256px] h-[250px]">
+                    <img src="/images/agileTeam3.webp" class="w-[256px] h-[250px]">
+                </div>
+                <div class="absolute left-90 top-140 flex flex-col gap-5">
+                    <img src="/images/agileTeam2.webp" class="w-[256px] h-[250px]">
+                    <img src="/images/agileTeam3.webp" class="w-[256px] h-[250px]">
+                </div>
+                <div class="absolute left-20 top-210 flex flex-col gap-5">
+                    <img src="/images/agileTeam2.webp" class="w-[256px] h-[250px]">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class=" bg-black text-white flex flex-col gap-20 md:flex-row items-center p-8 md:p-16">
@@ -361,7 +370,7 @@
             <h1 class="text-10xl font-extrabold leading-relaxed md:text-5xl">
                 We’re growing
             </h1>
-        
+
         </div>
         <div class="md:w-1/2 mt-8 md:mt-0">
             <p class="text-gray-100">
@@ -378,7 +387,7 @@
 
     </section>
     <section class="my-30 mx-10 px-10">
-        <h1 class="text-9xl font-extrabold leading-relaxed md:text-5xl">
+        <h1 class="lg:text-6xl font-extrabold leading-relaxed md:text-5xl">
             Stay in the loop on <br>tech topics
         </h1>
     </section>
@@ -386,97 +395,126 @@
 
     <section>
         <div class="grid grid-cols-1 my-30 mx-10 px-10 md:grid-cols-3 gap-6">
-        <div class="bg-white  overflow-hidden shadow-md">
-            <div class="relative">
-              <img src="/images/Patience_blog_cover.webp" alt="Product Manager meditating with code" class="w-full h-48 object-cover bg-indigo-700" />
+            <div class="bg-white  overflow-hidden shadow-md">
+                <div class="relative">
+                    <img src="/images/Patience_blog_cover.webp" alt="Product Manager meditating with code"
+                        class="w-full h-48 object-cover bg-indigo-700" />
+                </div>
+                <div class="p-4">
+                    <div class="text-gray-600 font-medium mb-1">PM</div>
+                    <div class="flex items-center text-gray-500 text-sm mb-3">
+                        <span>Zoran Živković</span>
+                        <span class="mx-2">•</span>
+                        <span>2024-01-18</span>
+                        <span class="mx-2">•</span>
+                        <span>4min</span>
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">The Importance of Patience in Producing
+                        High-Quality Work</h2>
+                </div>
             </div>
-            <div class="p-4">
-              <div class="text-gray-600 font-medium mb-1">PM</div>
-              <div class="flex items-center text-gray-500 text-sm mb-3">
-                <span>Zoran Živković</span>
-                <span class="mx-2">•</span>
-                <span>2024-01-18</span>
-                <span class="mx-2">•</span>
-                <span>4min</span>
-              </div>
-              <h2 class="text-xl font-bold text-gray-800 mb-2">The Importance of Patience in Producing High-Quality Work</h2>
-            </div>
-          </div>
-         
-          <div class="bg-white  overflow-hidden shadow-md">
-            <div class="relative">
-              <img src="/images/Blog_Illustration_-_How_to_get_the_most.webp" alt="Sales strategy with hand placing chess piece" class="w-full h-48 object-cover bg-black" />
-            </div>
-            <div class="p-4">
-              <div class="text-gray-600 font-medium mb-1">SALES</div>
-              <div class="flex items-center text-gray-500 text-sm mb-3">
-                <span>Mladen Šimić</span>
-                <span class="mx-2">•</span>
-                <span>2023-10-24</span>
-                <span class="mx-2">•</span>
-                <span>6min</span>
-              </div>
-              <h2 class="text-xl font-bold text-gray-800 mb-2">How to Get the Most Out of Your Agency: Insider Tips and Tricks</h2>
-            </div>
-          </div>
-          
-          
-          <div class="bg-white  overflow-hidden shadow-md">
-            <div class="relative">
-              <img src="/images/Discovery_Workshops_-_Cover_illustration.webp" alt="Design flowchart with colored nodes" class="w-full h-48 object-cover bg-black" />
-            </div>
-            <div class="p-4">
-              <div class="text-gray-600 font-medium mb-1">DESIGN</div>
-              <div class="flex items-center text-gray-500 text-sm mb-3">
-                <span>Jake Dragash</span>
-                <span class="mx-2">•</span>
-                <span>2023-10-03</span>
-                <span class="mx-2">•</span>
-                <span>16min</span>
-              </div>
-              <h2 class="text-xl font-bold text-gray-800 mb-2">A Deep Dive into Discovery Workshops: From Idea to Roadmap</h2>
-            </div>
-          </div>
-          
 
-    </div>
+            <div class="bg-white  overflow-hidden shadow-md">
+                <div class="relative">
+                    <img src="/images/Blog_Illustration_-_How_to_get_the_most.webp"
+                        alt="Sales strategy with hand placing chess piece" class="w-full h-48 object-cover bg-black" />
+                </div>
+                <div class="p-4">
+                    <div class="text-gray-600 font-medium mb-1">SALES</div>
+                    <div class="flex items-center text-gray-500 text-sm mb-3">
+                        <span>Mladen Šimić</span>
+                        <span class="mx-2">•</span>
+                        <span>2023-10-24</span>
+                        <span class="mx-2">•</span>
+                        <span>6min</span>
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">How to Get the Most Out of Your Agency: Insider
+                        Tips and Tricks</h2>
+                </div>
+            </div>
+
+
+            <div class="bg-white  overflow-hidden shadow-md">
+                <div class="relative">
+                    <img src="/images/Discovery_Workshops_-_Cover_illustration.webp"
+                        alt="Design flowchart with colored nodes" class="w-full h-48 object-cover bg-black" />
+                </div>
+                <div class="p-4">
+                    <div class="text-gray-600 font-medium mb-1">DESIGN</div>
+                    <div class="flex items-center text-gray-500 text-sm mb-3">
+                        <span>Jake Dragash</span>
+                        <span class="mx-2">•</span>
+                        <span>2023-10-03</span>
+                        <span class="mx-2">•</span>
+                        <span>16min</span>
+                    </div>
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">A Deep Dive into Discovery Workshops: From Idea to
+                        Roadmap</h2>
+                </div>
+            </div>
+
+
+        </div>
 
     </section>
 
     <section class="my-30 mx-10 p-10  ">
-        <h2 class="text-5xl font-bold text-black ">Our Offices</h2>
+        <h2 class="lg:text-5xl font-bold text-black text-3xl ">Our Offices</h2>
 
-        <div class="grid grid-rows-1 grid-flow-col gap-20 my-10">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 gap-20 my-10">
 
-           
-          <div class="">
-              <img src="/images/zagreb.webp" alt="Design flowchart with colored nodes" class="w-full h-80 object-cover bg-black" />
-           
-            <div class="p-4">
-              <a href="" class="text-gray-900 font-bold mb-1 curser-pontier text-xl hover:text-blue-700 ."><i class='bx bxs-location-plus' style='color:#131314'  ></i> Zagber</a>
-              <div class="flex items-center text-gray-500 text-sm mb-3">
-                <a href="#" class="">Gradiščanska 24, 10000, Zagreb, Croatia</a>  
-              </div>
-            </div>
-          </div>
-          <div class="">
-           
-              <img src="/images/zagreb.webp" alt="Design flowchart with colored nodes"  class="w-full h-80 object-cover bg-black"  />
-           
-              <div class="p-4">
-                <a href="" class="text-gray-900 font-bold mb-1 curser-pontier text-xl hover:text-blue-700 ."><i class='bx bxs-location-plus' style='color:#131314'  ></i> Zagber</a>
-                <div class="flex items-center text-gray-500 text-sm mb-3">
-                  <a href="#" class="">Gradiščanska 24, 10000, Zagreb, Croatia</a>  
+
+            <div class="">
+                <img src="/images/zagreb.webp" alt="Design flowchart with colored nodes"
+                    class="w-full h-80 object-cover bg-black" />
+
+                <div class="p-4">
+                    <a href="" class="text-gray-900 font-bold mb-1 curser-pontier text-xl hover:text-blue-700 ."><i
+                            class='bx bxs-location-plus' style='color:#131314'></i> Zagber</a>
+                    <div class="flex items-center text-gray-500 text-sm mb-3">
+                        <a href="#" class="">Gradiščanska 24, 10000, Zagreb, Croatia</a>
+                    </div>
                 </div>
-              </div>
-          </div>
+            </div>
+            <div class="">
 
+                <img src="/images/zagreb.webp" alt="Design flowchart with colored nodes"
+                    class="w-full h-80 object-cover bg-black" />
+
+                <div class="p-4">
+                    <a href="" class="text-gray-900 font-bold mb-1 curser-pontier text-xl hover:text-blue-700 ."><i
+                            class='bx bxs-location-plus' style='color:#131314'></i> Zagber</a>
+                    <div class="flex items-center text-gray-500 text-sm mb-3">
+                        <a href="#" class="">Gradiščanska 24, 10000, Zagreb, Croatia</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section> 
+    <section class="my-30 mx-20 bg-black text-white">
+        <div class="flex flex-col items-center justify-center py-16 px-4 text-center">
+            <h2 class="text-4xl font-bold">Still have questions?</h2>
+            <p class="text-gray-300 mt-2">
+                Can’t find the answer you’re looking for? Please talk to our friendly team.
+            </p>
+    
+            <div class="flex mt-4 space-x-[-10px]">
+                <img src="/images/matijaBermanec.webp" alt="Team Member" class="w-12 h-12 rounded-full border-2 border-gray-800">
+                <img src="/images/lorenaUjevic.webp" alt="Team Member" class="w-12 h-12 rounded-full border-2 border-gray-800">
+                <img src="/images/kristinaZecevic.webp" alt="Team Member" class="w-12 h-12 rounded-full border-2 border-gray-800">
+            </div>
+    
             
+            <button class="collaborate my-10">
+                Ask us anything
+            </button>
         </div>
     </section>
 
 
-    
+
 
 </body>
 
